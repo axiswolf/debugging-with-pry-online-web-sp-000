@@ -1,5 +1,5 @@
 def plus_two(num)
-	num = (num.to_i + 2)
+	num = (num + 2).to_i
   num
   binding.pry
 end
